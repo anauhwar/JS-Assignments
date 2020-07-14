@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            Current Date
+        </title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        
+        var date = new Date();
+        var datestring = ("0" + (date.getMonth() + 1).toString()).substr(-2) + " / " + ("0" + date.getDate().toString()).substr(-2)  + " / " + (date.getFullYear().toString());
+        var datestring2 = ("0" + (date.getMonth() + 1).toString()).substr(-2) + " - " + ("0" + date.getDate().toString()).substr(-2)  + " - " + (date.getFullYear().toString());
+        document.write("Current Date: "+"</br>"+datestring2+"</br>"+datestring)
+        </script>
+
+    </body>
+
+</html>
